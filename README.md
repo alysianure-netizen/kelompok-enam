@@ -15,7 +15,7 @@ Group : 6
 Ticket Price Calculator
 --- 
 ## 3. Project Description
-This program is a program that calculates the total price of tickets for an event. The ticket price depends on the visitor's age.
+This is a program that calculates the total price of tickets for an event. The ticket price depends on the visitor's age.
 ---
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
