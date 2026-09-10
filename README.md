@@ -2,7 +2,7 @@
 ## 1. Group Information 
 Class : A
 Group : 6
-### Group Numbers 
+### Group Members 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
 | 1 | Alysia Nur Estiningtyas      | 2610312004 | Project Coordinator |
@@ -13,9 +13,11 @@ Group : 6
 ---
 ## 2. Project Title
 Ticket Price Calculator
+
 --- 
 ## 3. Project Description
 This is a program that calculates the total price of tickets for an event. The ticket price depends on the visitor's age.
+
 ---
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
@@ -49,14 +51,17 @@ The program displays:
 ## 8. Algorithm
 The algorithm used in the program is described in:
 `pseudocode.txt`
+
 ---
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
 File:flowchart.fprg`
+
 ---
 ## 10. JavaScript Implementation
 The JavaScript implementation of the program is available in:
 `program.js`
+
 ---
 ## 11. Testing
 The program is tested using several test scenarios.
