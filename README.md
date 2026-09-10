@@ -7,7 +7,7 @@ Group : 6
 |---|---|---|---|
 | 1 | Alysia Nur Estiningtyas      | 2610312004 | Testing & Documentation |
 | 2 | Nehan Shahnawaz Sjarif       | 2610312020 | Flowchart |
-| 3 | Kezia Elsa Napitupulu        | 260312024  | JavaScript |
+| 3 | Kezia Elsa Napitupulu        | 2610312024  | JavaScript |
 | 4 | Muhammad Revam Dzialulhaq    | 2610312030 | Algorithm |
 | 5 | Teresia Zelita Kurnia Waruwu | 2610312035 | Project Coordinator |
 ---
