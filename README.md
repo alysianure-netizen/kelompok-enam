@@ -50,20 +50,20 @@ The program displays:
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
-`pseudocode.txt`
+[pseudocode.txt](pseudocode.txt)
 
 ---
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
-`flowchart harga tiket.fprg`
+[flowchart harga tiket.fprg](flowchart harga tiket.fprg)
 
 ---
 ## 10. JavaScript Implementation
 The JavaScript implementation of the program is available in:
-`program.js`
+[program.js](program.js)
 
 ---
 ## 11. Testing
 The program is tested using several test scenarios.
 Testing documentation:
-`test-cases.md`
+[test-cases.md](test-cases.md)
