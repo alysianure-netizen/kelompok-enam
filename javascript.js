@@ -35,6 +35,8 @@ async function main() {
       console.log('Masukkan angka yang valid, minimal 1.\n');
       visitorCount = 0;
     }
+  }
+
   console.log(`\nSekarang masukkan usia dari pengunjung pertama sampai ke-${visitorCount}.\n`);
 
   // tahap 2: tanya usia satu-satu, dari pengunjung ke-1 sampai ke-visitorCount
@@ -51,6 +53,7 @@ async function main() {
         age = -1;
       }
     }
+
     const price = getPrice(age);
     subtotal += price;
     tickets.push({ nomor: i, usia: age, kategori: getCategory(age), harga: price });
