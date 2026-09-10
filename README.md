@@ -55,7 +55,7 @@ The algorithm used in the program is described in:
 ---
 ## 9. Flowchart
 The flowchart is created using Flowgorithm.
-File:flowchart.fprg`
+
 
 ---
 ## 10. JavaScript Implementation
