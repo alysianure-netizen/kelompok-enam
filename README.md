@@ -50,7 +50,7 @@ The program displays:
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
-[pseudocode.txt](pseudocode.txt)
+[pseudocode .txt](pseudocode .txt)
 
 ---
 ## 9. Flowchart
@@ -60,7 +60,7 @@ The flowchart is created using Flowgorithm.
 ---
 ## 10. JavaScript Implementation
 The JavaScript implementation of the program is available in:
-[program.js](program.js)
+[javascript.js](javascript.js)
 
 ---
 ## 11. Testing
