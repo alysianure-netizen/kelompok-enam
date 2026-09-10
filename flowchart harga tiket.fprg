@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart harga tiket"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-10 12:13:45 PM"/>
+        <attribute name="created" value="VVNFUjtMQVBUT1AtQjc5VVNUQkQ7MjAyNi0wOS0xMDsxMToxNzoxMiBBTTsyNjU0"/>
+        <attribute name="edited" value="VVNFUjtMQVBUT1AtQjc5VVNUQkQ7MjAyNi0wOS0xMDsxMjoxMzo0NSBQTTsxOzI3ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jumlahPengunjung, usia, i" type="Integer" array="False" size=""/>
+            <declare name="hargaTiket, totalHarga, hargaAkhir, diskon" type="Real" array="False" size=""/>
+            <assign variable="totalHarga" expression="0"/>
+            <input variable="jumlahPengunjung"/>
+            <for variable="i" start="1" end="jumlahPengunjung" direction="inc" step="1">
+                <input variable="usia"/>
+                <if expression="usia &lt; 5">
+                    <then>
+                        <assign variable="hargaTiket" expression="0"/>
+                    </then>
+                    <else>
+                        <if expression="usia &lt;= 12">
+                            <then>
+                                <assign variable="hargaTiket" expression="5"/>
+                            </then>
+                            <else>
+                                <if expression="usia &lt;= 59">
+                                    <then>
+                                        <assign variable="hargaTiket" expression="10"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="hargaTiket" expression="7"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="totalHarga" expression="totalHarga + hargaTiket"/>
+            </for>
+            <if expression="jumlahPengunjung &gt;= 5">
+                <then>
+                    <assign variable="diskon" expression="totalHarga * 0.10"/>
+                </then>
+                <else>
+                    <assign variable="diskon" expression="0"/>
+                </else>
+            </if>
+            <assign variable="hargaAkhir" expression="totalHarga - diskon"/>
+            <output expression="&quot;Jumlah Pengunjung: &quot; &amp; jumlahPengunjung" newline="True"/>
+            <output expression="&quot;Total Harga: &quot; &amp; totalHarga" newline="True"/>
+            <output expression="&quot;Diskon: &quot; &amp; diskon" newline="True"/>
+            <output expression="&quot;Harga: &quot; &amp; hargaAkhir" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
