@@ -50,7 +50,7 @@ The program displays:
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
-[pseudocode .txt](pseudocode .txt)
+[pseudocode.txt](pseudocode.txt)
 
 ---
 ## 9. Flowchart
