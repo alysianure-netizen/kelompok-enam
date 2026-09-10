@@ -1,41 +1,43 @@
-function hitungHargaTiket(jumlahPengunjung, daftarUsia) {
-    let totalHargaSebelumDiskon = 0;
+DECLARE n : INTEGER
+DECLARE i : INTEGER
+DECLARE usia : INTEGER
+DECLARE harga : REAL
+DECLARE total : REAL
+DECLARE diskon : REAL
 
-    // 2. Perulangan untuk mengecek usia setiap pengunjung
-    for (let i = 0; i < daftarUsia.length; i++) {
-        let usia = daftarUsia[i];
-        let harga = 0;
+total <- 0
 
-        // 3. Pengecekan rentang usia (if/else)
-        if (usia < 5) {
-            harga = 0; // Gratis
-        } else if (usia >= 5 && usia <= 12) {
-            harga = 5; // $5
-        } else if (usia >= 13 && usia <= 59) {
-            harga = 10; // $10
-        } else {
-            harga = 7; // $7
-        }
+OUTPUT "Masukkan jumlah pengunjung:"
+INPUT n
 
-        totalHargaSebelumDiskon += harga;
-    }
+FOR i <- 1 TO n
+    OUTPUT "Masukkan usia pengunjung ke-"
+    OUTPUT i
+    INPUT usia
 
-    // 4. Memberikan diskon 10% jika beli 5 tiket atau lebih
-    let diskon = 0;
-    if (jumlahPengunjung >= 5) {
-        diskon = 0.10 * totalHargaSebelumDiskon;
-    }
+    IF usia < 5 THEN
+        harga <- 0
+    ELSE
+        IF usia <= 12 THEN
+            harga <- 5
+        ELSE
+            IF usia <= 59 THEN
+                harga <- 10
+            ELSE
+                harga <- 7
+            ENDIF
+        ENDIF
+    ENDIF
 
-    let totalHargaAkhir = totalHargaSebelumDiskon - diskon;
+    total <- total + harga
+NEXT i
 
-    // 5. Menampilkan jumlah tiket dan harga akhir
-    console.log("=== RINGKASAN PEMBELIAN TIKET ===");
-    console.log(`Jumlah Tiket      : ${jumlahPengunjung}`);
-    console.log(`Subtotal          : $${totalHargaSebelumDiskon}`);
-    console.log(`Diskon            : $${diskon}`);
-    console.log(`Total Harga Akhir : $${totalHargaAkhir}`);
-}
+IF n >= 5 THEN
+    diskon <- total * 0.10
+    total <- total - diskon
+ENDIF
 
-// Contoh Penggunaan (Simulasi input 5 orang dengan berbagai usia):
-// Usia: 3 tahun, 10 tahun, 25 tahun, 45 tahun, 65 tahun
-hitungHargaTiket(5, [3, 10, 25, 45, 65]);
+OUTPUT "Jumlah tiket:"
+OUTPUT n
+OUTPUT "Total harga akhir:"
+OUTPUT total
