@@ -1,43 +1,32 @@
-DECLARE n : INTEGER
-DECLARE i : INTEGER
-DECLARE usia : INTEGER
-DECLARE harga : REAL
-DECLARE total : REAL
-DECLARE diskon : REAL
+START
 
-total <- 0
+DECLARE jumlahPengunjung, usia, hargaTiket, totalHarga, diskon, i
+SET totalHarga = 0
 
-OUTPUT "Masukkan jumlah pengunjung:"
-INPUT n
+// 1. Menanyakan jumlah pengunjung
+INPUT jumlahPengunjung
 
-FOR i <- 1 TO n
-    OUTPUT "Masukkan usia pengunjung ke-"
-    OUTPUT i
-    INPUT usia
+// 2 & 3. Menentukan harga tiket tiap pengunjung dan menghitung total
+FOR i = 1 TO jumlahPengunjung DO
+    INPUT usia (untuk pengunjung ke-i)
+    
+    Tentukan hargaTiket berdasarkan usia:
+        - usia di bawah 5 tahun -> hargaTiket = 0 (gratis)
+        - usia 5 sampai 12 tahun -> hargaTiket = 5
+        - usia 13 sampai 59 tahun -> hargaTiket = 10
+        - usia 60 tahun atau lebih -> hargaTiket = 7
+    
+    totalHarga = totalHarga + hargaTiket
+END FOR
 
-    IF usia < 5 THEN
-        harga <- 0
-    ELSE
-        IF usia <= 12 THEN
-            harga <- 5
-        ELSE
-            IF usia <= 59 THEN
-                harga <- 10
-            ELSE
-                harga <- 7
-            ENDIF
-        ENDIF
-    ENDIF
+// 4. Memberikan diskon jika memenuhi ketentuan
+Tentukan diskon:
+    - jika jumlahPengunjung 5 orang atau lebih -> diskon = totalHarga * 10 / 100, lalu totalHarga = totalHarga - diskon
+    - jika kurang dari 5 -> diskon = 0
 
-    total <- total + harga
-NEXT i
+// 5. Menampilkan jumlah tiket dan harga akhir
+OUTPUT "Jumlah tiket: " + jumlahPengunjung
+OUTPUT "Diskon: $" + diskon
+OUTPUT "Total harga akhir: $" + totalHarga
 
-IF n >= 5 THEN
-    diskon <- total * 0.10
-    total <- total - diskon
-ENDIF
-
-OUTPUT "Jumlah tiket:"
-OUTPUT n
-OUTPUT "Total harga akhir:"
-OUTPUT total
+END
