@@ -12,11 +12,10 @@ Group : 6
 | 5 | Teresia Zelita Kurnia Waruwu | 2610312035 | Testing & Documentation |
 ---
 ## 2. Project Title
-Number 9
+Ticket Price Calculator
 --- 
 ## 3. Project Description
-This program is a simple game in which the player must guess a number
-determined by the computer.
+This program is a program that calculates the total price of tickets for an event. The ticket price depends on the visitor's age.
 ---
 ## 4. Objectives
 This project is designed to apply the following programming concepts:
