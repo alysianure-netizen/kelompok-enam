@@ -2,6 +2,15 @@
 ## 1. Group Information 
 Class : A
 Group : 6
+### Group Members 
+| No. | Name | Student ID | Role |
+|---|---|---|---|
+| 1 | Alysia Nur Estiningtyas      | 2610312004 | Testing & Documentation |
+| 2 | Nehan Shahnawaz Sjarif       | 2610312020 | Flowchart |
+| 3 | Kezia Elsa Napitupulu        | 2610312024  | JavaScript |
+| 4 | Muhammad Revam Dzialulhaq    | 2610312030 | Algorithm |
+| 5 | Teresia Zelita Kurnia Waruwu | 2610312035 | Project Coordinator |
+
 background: linear-gradient(
   135deg,
   #667eea,
@@ -12,14 +21,6 @@ background: linear-gradient(
 background-size: 300% 300%;
 animation: gradient 8s ease infinite;
 
-### Group Members 
-| No. | Name | Student ID | Role |
-|---|---|---|---|
-| 1 | Alysia Nur Estiningtyas      | 2610312004 | Testing & Documentation |
-| 2 | Nehan Shahnawaz Sjarif       | 2610312020 | Flowchart |
-| 3 | Kezia Elsa Napitupulu        | 2610312024  | JavaScript |
-| 4 | Muhammad Revam Dzialulhaq    | 2610312030 | Algorithm |
-| 5 | Teresia Zelita Kurnia Waruwu | 2610312035 | Project Coordinator |
 ---
 ## 2. Project Title
 Ticket Price Calculator
