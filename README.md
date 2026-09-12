@@ -40,6 +40,7 @@ The program determines the ticket price based on the visitor's age:
 - 5-12 years old → $5
 - 13-59 years old → $10
 - 60 years old or older → $7
+  
 The program calculates the total ticket price. If 5 or more tickets are purchased, a 10% discount is applied.
 ---
 ## 7. Output
