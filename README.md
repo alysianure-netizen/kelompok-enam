@@ -2,6 +2,13 @@
 ## 1. Group Information 
 Class : A
 Group : 6
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/gradient-header.svg" width="100%" />
+
+</div>
+
 ### Group Members 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
