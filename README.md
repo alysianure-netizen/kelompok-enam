@@ -2,7 +2,6 @@
 ## 1. Group Information 
 Class : A
 Group : 6
-
 ---
 
 <div align="center">
@@ -12,7 +11,6 @@ Group : 6
 </div>
 
 ---
-
 ### Group Members 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
