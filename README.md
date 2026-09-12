@@ -2,6 +2,15 @@
 ## 1. Group Information 
 Class : A
 Group : 6
+background: linear-gradient(
+  135deg,
+  #667eea,
+  #764ba2,
+  #6dd5ed
+);
+
+background-size: 300% 300%;
+animation: gradient 8s ease infinite;
 ### Group Members 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
