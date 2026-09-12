@@ -11,16 +11,6 @@ Group : 6
 | 4 | Muhammad Revam Dzialulhaq    | 2610312030 | Algorithm |
 | 5 | Teresia Zelita Kurnia Waruwu | 2610312035 | Project Coordinator |
 
-background: linear-gradient(
-  135deg,
-  #667eea,
-  #764ba2,
-  #6dd5ed
-);
-
-background-size: 300% 300%;
-animation: gradient 8s ease infinite;
-
 ---
 ## 2. Project Title
 Ticket Price Calculator
