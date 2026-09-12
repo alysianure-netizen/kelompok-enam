@@ -52,6 +52,14 @@ The program displays:
 - The discount
 - The final price after discount
 ---
+
+<div align="center">
+
+<img src="ticket-price.svg" width="100%" alt="Ticket Price Calculator">
+
+</div>
+
+---
 ## 8. Algorithm
 The algorithm used in the program is described in:
 [pseudocode.txt](pseudocode.txt)
