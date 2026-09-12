@@ -6,7 +6,7 @@ Group : 6
 
 <div align="center">
 
-<img src="./assets/gradient-header.svg" width="100%" />
+<img src="./gradient-header.svg" width="100%" />
 
 </div>
 
