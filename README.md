@@ -5,8 +5,6 @@
 </div>
 
 <br>
-
-<div align="center">
   
 ---
 ## 1. Group Information 
