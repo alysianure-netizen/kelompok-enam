@@ -2,7 +2,10 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="gradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="100%">
+
       <stop offset="0%" stop-color="#667eea">
         <animate
           attributeName="stop-color"
@@ -26,9 +29,69 @@
           dur="8s"
           repeatCount="indefinite"/>
       </stop>
+
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#gradient)"/>
+  <!-- Background -->
+  <rect
+    width="1200"
+    height="300"
+    rx="20"
+    fill="url(#gradient)"
+  />
+
+  <!-- Decorative circles -->
+  <circle
+    cx="100"
+    cy="70"
+    r="90"
+    fill="white"
+    opacity="0.08"
+  />
+
+  <circle
+    cx="1100"
+    cy="240"
+    r="130"
+    fill="white"
+    opacity="0.08"
+  />
+
+  <!-- Main title -->
+  <text
+    x="600"
+    y="125"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="48"
+    font-weight="700"
+    fill="white">
+    🎟️ Ticket Price Calculator
+  </text>
+
+  <!-- Subtitle -->
+  <text
+    x="600"
+    y="170"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+    font-weight="400"
+    fill="white"
+    opacity="0.95">
+    mini programming project
+  </text>
+
+  <!-- Small line -->
+  <line
+    x1="500"
+    y1="195"
+    x2="700"
+    y2="195"
+    stroke="white"
+    stroke-width="2"
+    opacity="0.6"
+  />
 
 </svg>
