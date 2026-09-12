@@ -7,13 +7,7 @@
 <br>
 
 <div align="center">
-
-## 🎟️ Ticket Price Calculator
-
-A simple mini programming project built with JavaScript.
-
-</div>
-
+  
 ---
 ## 1. Group Information 
 Class : A
