@@ -15,46 +15,6 @@ A simple mini programming project built with JavaScript.
 </div>
 
 ---
-
-## 📌 About The Project
-
-This project is a simple ticket price calculator created as a
-mini programming project using JavaScript.
-
-The program calculates the ticket price based on the selected
-ticket category and input provided by the user.
-
----
-
-## 🛠️ Built With
-
-- HTML
-- CSS
-- JavaScript
-
----
-
-## ✨ Features
-
-- 🎟️ Calculate ticket prices
-- 💻 Simple and easy-to-use interface
-- ⚡ Instant calculation
-- 🎨 Clean and minimalist design
-
----
-
-## 📂 Project Structure
-
-```text
-ticket-price/
-│
-├── assets/
-│   └── gradient-header.svg
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 ## 1. Group Information 
 Class : A
 Group : 6
