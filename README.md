@@ -6,7 +6,7 @@ Group : 6
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/gradient-header.svg" width="100%" />
+<img src="./assets/gradient-header.svg" width="100%" />
 
 </div>
 
