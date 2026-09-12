@@ -11,6 +11,7 @@ background: linear-gradient(
 
 background-size: 300% 300%;
 animation: gradient 8s ease infinite;
+
 ### Group Members 
 | No. | Name | Student ID | Role |
 |---|---|---|---|
