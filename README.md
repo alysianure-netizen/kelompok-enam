@@ -31,22 +31,24 @@ This project is designed to apply the following programming concepts:
 ---
 ## 5. Input
 The program receives:
-- The player's guess
-- The number of attempts
+- The number of visitors
+- The age of each visitor
 ---
 ## 6. Process
-The program compares the player's guess with the target number.
-If the guess is:
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+The program determines the ticket price based on the visitor's age:
+- Under 5 years old → Free
+- 5-12 years old → $5
+- 13-59 years old → $10
+- 60 years old or older → $7
+The program calculates the total ticket price. If 5 or more tickets are purchased, a 10% discount is applied.
 ---
 ## 7. Output
 The program displays:
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+- The ticket price for each visitor
+- The total number of tickets
+- The total price
+- The discount
+- The final price after discount
 ---
 ## 8. Algorithm
 The algorithm used in the program is described in:
