@@ -3,42 +3,49 @@
 ## Test Case 1
 
 **Input:**  
-Guess = 70
+Age = 6 years old
 
 **Expected Output:**  
-"Too high"
+$5
 
 **Actual Output:**  
-"Too high"
-
-**Status:** PASS
+$
 
 ---
 
 ## Test Case 2
 
 **Input:**  
-Guess = 30
+Age = 18 years old
 
 **Expected Output:**  
-"Too low"
+$10
 
 **Actual Output:**  
-"Too low"
-
-**Status:** PASS
+$
 
 ---
 
 ## Test Case 3
 
 **Input:**  
-Guess = 50
+Age = 60 years old
 
 **Expected Output:**  
-"Correct"
+$7
 
 **Actual Output:**  
-"Correct"
+$
 
-**Status:** PASS
+---
+
+## Test Case 4
+
+**Input:**  
+Age = 67 years old
+
+**Expected Output:**  
+$7
+
+**Actual Output:**  
+$
