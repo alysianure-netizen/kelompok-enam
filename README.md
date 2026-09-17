@@ -37,6 +37,7 @@ This project is designed to apply the following programming concepts:
 - Operators
 - Conditional statements
 - Loops
+- if-else
 - Algorithms
 - JavaScript
 ---
