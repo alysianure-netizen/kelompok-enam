@@ -5,11 +5,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-function ask(question) {
   return new Promise((resolve) => rl.question(question, resolve));
 }
 
-async function main() {
   let jumlahPengunjung, usia, i;
   let hargaTiket, totalHarga, hargaAkhir, diskon;
 
